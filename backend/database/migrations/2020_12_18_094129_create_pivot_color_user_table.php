@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateColorsTable extends Migration
+class CreatePivotColorUserTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateColorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('colors', function (Blueprint $table) {
+        Schema::create('pivot_color_user', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->unique();
-            $table->string('code')->unique();
+            $table->foreignId('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreignId('color_id')->references('id')->on('colors');
             $table->timestamps();
         });
     }
@@ -28,6 +28,6 @@ class CreateColorsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('colors');
+        Schema::dropIfExists('pivot_color_user');
     }
 }

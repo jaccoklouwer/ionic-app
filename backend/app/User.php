@@ -2,7 +2,7 @@
 
 namespace App;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
@@ -37,8 +37,16 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    protected $with = ['colors'];
+
+    /**
+     * @return BelongsToMany
+     * @Relation
+     */
     public function colors()
     {
-        return $this->hasMany(Color::class);
+        return $this->belongsToMany(Color::class, 'pivot_color_user')
+            ->using(UserColor::class);
     }
+
 }

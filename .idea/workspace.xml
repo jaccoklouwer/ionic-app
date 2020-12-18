@@ -1,109 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b51eafc9-267e-41cc-b386-e2891751dec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ionic-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Color.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Middleware/TrustHosts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/database/migrations/2020_12_12_105204_create_colors_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/webpack.mix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/color.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/angular.json" afterDir="false" />
+    <list default="true" id="b51eafc9-267e-41cc-b386-e2891751dec8" name="Default Changelist" comment="add the extra files">
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/Services/backend.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/home/home.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/home/home.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/backend.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/Services/backend.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/backend.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/color.model.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/home/home.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/home/home.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/user.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/users/users-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/users/users.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/users/users.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/users/users.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/users/users.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/users/users.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/welcome/welcome-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/welcome/welcome.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/welcome/welcome.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/welcome/welcome.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/welcome/welcome.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/welcome/welcome.page.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +48,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -247,7 +170,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/app/Services" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -256,6 +179,12 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="C:\Users\jacco\Documents\ionic-app\frontend\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jacco\Documents\ionic-app\frontend\src\app\models" />
+      <recent name="C:\Users\jacco\Documents\ionic-app\frontend\src\app\Services" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -272,7 +201,26 @@
       <workItem from="1607949274661" duration="114000" />
       <workItem from="1607949861810" duration="9187000" />
       <workItem from="1608022862520" duration="20860000" />
+      <workItem from="1608050416641" duration="124000" />
+      <workItem from="1608109994429" duration="9732000" />
+      <workItem from="1608196039074" duration="841000" />
+      <workItem from="1608202494334" duration="14483000" />
     </task>
+    <task id="LOCAL-00001" summary="add frontend">
+      <created>1608050469161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608050469161</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add the extra files">
+      <created>1608050522361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608050522361</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,5 +236,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add frontend" />
+    <MESSAGE value="add the extra files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the extra files" />
   </component>
 </project>

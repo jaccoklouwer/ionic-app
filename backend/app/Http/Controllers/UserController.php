@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Color;
 use App\User;
 use Illuminate\Http\Request;
 
@@ -14,7 +15,10 @@ class UserController extends Controller
      */
     public function index()
     {
-        return User::all()->get();
+        return response(
+            [
+                'results'=> User::all(),
+            ],200);
     }
 
     /**
@@ -36,7 +40,7 @@ class UserController extends Controller
      */
     public function show(User $user)
     {
-        //
+        return response(['result' => $user]);
     }
 
     /**
@@ -59,6 +63,16 @@ class UserController extends Controller
      */
     public function destroy(User $user)
     {
-        //
+        $user->delete();
+        return response(['status' => true], 200);
+    }
+
+    public function login(Request $request)
+    {
+        $user = factory(User::class)->create();
+        $user->colors()->attach(Color::all()->random(3));
+        $user->save();
+
+        return $user;
     }
 }
